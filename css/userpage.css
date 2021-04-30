@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h2{
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.icon_image{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.icon_image img{
+    width: 100%;
+}
+
+.my_user_data{
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.inner_user_data{
+    margin: 20px 0;
+    padding:20px 0;
+    border-radius: 20px;;
+    background: #f1f1f1;
+}
+
+.user_data_name{
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.my_menu{
+    margin: 30px;
+}

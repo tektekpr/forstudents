@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+form{
+
+    overflow: hidden;
+}
+
+.stamp_box{
+    margin: 10px 0 10px;
+    font-weight: bold;
+    float: left;
+    min-width: calc(100% / 4);
+    text-align: center;
+}
+
+.inner_stamp_box{
+    margin: 10px;
+    padding:10px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 4px;
+    font-weight: bold;
+    color: #00bcd4;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 16px;
+    border: none;
+}
+
+button:hover{
+    transition: 0.8s;
+    cursor: pointer;
+}

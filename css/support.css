@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+h2 {
+    padding: 1rem 2rem;
+    border-left: 6px double #00bcd4;
+}
+
+.subtitle,.form_wrapper{
+    margin-left: calc(2rem + 6px);
+}
+
+.subtitle{
+    margin-bottom: 10px;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    padding: 2px 20px;
+    border-radius: 4px;
+    background: #00bcd4;
+    color: #fff;
+}
+
+.button:hover{
+    background: #33D1E5;
+    transition: 0.8s;
+    cursor: pointer;
+}
+p{
+    margin-bottom: 6px;
+}

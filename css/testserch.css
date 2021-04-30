@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.search{
+  text-align: center;
+}
+
+.sort{
+  text-align: right;
+}
+
+.sort select{
+  font-weight: bold;
+  border: none;
+}
+.sort select:hover{
+  cursor: pointer;
+}
+
+.sort input{
+  font-weight: bold;
+  border: none;
+  padding: 2px;
+  margin-left: 10px;
+  width: 100px;
+  height: 24px;
+  text-align: center;
+  background: #00bcd4;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.sort input:hover{
+  background: #33D1E5;
+  transition: 0.8s;
+  cursor: pointer;
+}

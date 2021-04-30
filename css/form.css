@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+}
+
+.wrapper{
+  min-height: 100vh;
+  position: relative;
+}
+
+header{
+  height: 100px;
+  border-top: solid 10px #00BCD4;
+}
+
+.inner_header{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header img{
+  width: 185px;
+  margin-top: 46px;
+}
+
+footer{
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color:#707070;
+  /*position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);*/
+}
+
+/*ログイン*/
+
+.form_login{
+  width: 500px;
+  border-radius: 30px;
+  /*border: solid 1px #cddc39;*/
+  background: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+}
+
+.form_signUp{
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 26px; 
+  border-radius: 30px;
+  /*border: solid 1px #cddc39;*/
+  background: #d9d9d9;
+  text-align: center;
+}
+
+.signUp_wrapper{
+  margin: 100px 0 80px 0;
+}
+
+h2{
+  font-size: 30px;
+  padding: 40px 0 20px;
+}
+
+.input_mp{
+  border-radius: 10px;
+  margin: 16px 0 26px;
+  padding:1px 10px 0;
+  width: 300px;
+  height: 28px;
+  border:none;
+  font-size: 18px;
+}
+
+.error{
+  color: red;
+}
+
+.submit{
+  margin: 20px 0 10px;
+  padding: 10px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border:none;
+  border-radius: 20px;
+  background: #00BCD4;
+  color: #fff;
+
+}
+
+.submit:hover{
+  cursor: pointer;
+  background: #33D1E5;
+  transition: 0.8s;
+}
+
+.form_login .link{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.warning{
+  font-size: 14px;
+  width: 350px;
+  margin: 0 auto;
+}

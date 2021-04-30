@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.top_img{
+  margin-left: -100px ;
+  width: 1224px;
+  height: 700px;
+  background: url('../images/topmain.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.top_img_txt{
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%); /*要素の大きさの半分ずつを戻す*/
+  -webkit-transform: translateY(-50%);
+  z-index: 1;
+}
+
+.top_img_txt p{
+  font-weight: bold;
+  color: #00bcd4;
+  font-size: 48px;
+}
+
+/*メイン*/
+main{
+  text-align: center;
+  width: 850px;
+  margin: 0 auto;
+}
+
+h2{
+  width: 400px;
+  padding:50px 0 0;
+  margin: 0 auto;
+  border-bottom: solid 3px #cddc39;
+}
+
+.main_title{
+  margin-bottom: 70px;
+  font-size: 36px;
+  width: 500px;
+}
+
+.image_logo_groupe{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.image_logo_groupe .image_logo{
+  width: 150px;
+}
+
+/*イメージロゴ*/
+.image_logo{
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 60px;
+
+}
+
+.image_logo img{
+  width: 100%;
+}
+
+.top_text{
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*ボタン*/
+.a_button{
+  padding: 30px 0 50px;
+  margin: 0 auto;
+  width: 360px;
+  height: 46px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+.a_button a{
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #00bcd4;
+  color: #fff;
+  width:100%;
+  line-height: 46px;
+  height: 46px;
+}
+
+.a_button a:hover{
+  background: #33D1E5;
+  transition: 0.8s;
+}
